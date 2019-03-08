@@ -63,7 +63,7 @@ func (this *Log4FE) log(level string, format string, args ...interface{}) (err e
 	_, filepath, filenum, _ := runtime.Caller(2)
 	filename := path.Base(filepath)
 	logmsg := fmt.Sprintf("%s %s %s %s %d - %s", this.service_name, this.service_env, level, filename, filenum, msg)
-	this.logger_handle.Log("", logmsg)
+	this.logger_handle.Log(0, logmsg)
 
 	return nil
 }

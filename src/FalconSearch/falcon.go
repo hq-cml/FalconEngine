@@ -7,10 +7,10 @@ import (
 	"runtime"
 	//"runtime/debug"
 	//"tree"
-	fd "FalconDispatcher"
-	fe "FalconEngine"
-	fs "FalconService"
-	"utils"
+	fd "github.com/hq-cml/FalconEngine/src/FalconDispatcher"
+	fe "github.com/hq-cml/FalconEngine/src/FalconEngine"
+	fs "github.com/hq-cml/FalconEngine/src/FalconService"
+	"github.com/hq-cml/FalconEngine/src/utils"
 )
 
 func main() {

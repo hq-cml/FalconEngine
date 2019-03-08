@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 	"time"
-	"utils"
+	"github.com/hq-cml/FalconEngine/src/utils"
 )
 
 const (

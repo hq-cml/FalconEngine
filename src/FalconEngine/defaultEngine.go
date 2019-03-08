@@ -10,7 +10,7 @@
 package FalconEngine
 
 import (
-	fi "FalconIndex"
+	fi "github.com/hq-cml/FalconEngine/src/FalconIndexLib"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 	"unsafe"
-	"utils"
+	"github.com/hq-cml/FalconEngine/src/utils"
 )
 
 const (

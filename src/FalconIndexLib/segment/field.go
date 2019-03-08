@@ -12,8 +12,8 @@ package segment
 import (
 	"errors"
 	"fmt"
-	"tree"
-	"utils"
+	"github.com/hq-cml/FalconEngine/src/tree"
+	"github.com/hq-cml/FalconEngine/src/utils"
 )
 
 // FSField struct description : 字段的基本单元，这是对外的最基本单元

@@ -16,8 +16,8 @@ import (
 	"fmt"
 	"os"
 	"strings"
-	"tree"
-	"utils"
+	"github.com/hq-cml/FalconEngine/src/tree"
+	"github.com/hq-cml/FalconEngine/src/utils"
 )
 
 /************************************************************************

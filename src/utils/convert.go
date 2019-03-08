@@ -42,7 +42,9 @@ func (this *options) doConvert(strs string) []string {
 	for len(bytes) > 0 {
 		r, w := utf8.DecodeRune(bytes)
 		bytes = bytes[w:]
-		single = get(int(r))
+		//TODO HQ: ??????
+		//single = get(int(r))
+		single = string(int(r))
 		// 中文字符判断
 		tempStr = string(r)
 		if len(single) == 0 {
