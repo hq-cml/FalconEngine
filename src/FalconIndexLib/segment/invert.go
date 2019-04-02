@@ -99,7 +99,8 @@ func (this *invert) addDocument(docid uint32, content interface{}) error {
 		return nil
 
 	case utils.IDX_TYPE_STRING_SEG: //分词模式
-		terminfos, termcount := utils.GSegmenter.SegmentWithTf(contentstr, true)
+		//terminfos, termcount := utils.GSegmenter.SegmentWithTf(contentstr, true)
+		terminfos, termcount := utils.GSegmenter.SegmentWithTf(contentstr, false)
 		//this.Logger.Info("[INFO] SegmentWithTf >>>>>>>>>>>>>>>>>>>>>>>> ")
 		for _, terminfo := range terminfos {
 			//this.Logger.Info("[INFO] terminfo.Term %v",terminfo.Term)

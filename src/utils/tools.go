@@ -71,7 +71,7 @@ func init() {
 	jieba = gojieba.NewJieba()
 
 	//初始化多音字到内存
-	initPhrases()
+	//initPhrases()
 }
 
 func getMapKeys() string {
